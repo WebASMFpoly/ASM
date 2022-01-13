@@ -1,0 +1,106 @@
+
+  * {
+    box-sizing: border-box;
+  }
+nav{
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    left: 0
+    ;
+}
+.nav-top-left-search input::placeholder{
+    color: rgb(224, 212, 212);
+}
+.nav-bottom{
+    position: absolute ;
+}
+  .bg-image {
+    /* The image used */  
+    /* Add the blur effect */
+    /* filter: blur(2px); */
+    /* -webkit-filter: blur(8px); */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-image img{
+      width: 100%;
+    }
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    color: white;
+    font-weight: bold;
+    /* border: 3px solid #f1f1f1; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+  }
+.box-dn>input{
+    background:no-repeat 0px 5px;
+    border: none;
+    border-bottom:  1px solid #fff;
+    outline: none;
+    font-size: 20px;
+    width: 87%;
+    margin: 0 0 20px;
+}
+::placeholder{
+    color: white;
+}
+.box-remeber{
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}
+input[type="submit"]{
+    background: #ff3366;
+    width: 88%;
+    height: 40px;
+    padding: 0.3em 1.2em;
+    border-radius: 6px;
+    color: white;
+    border: none
+}
+.box-icon{
+    display: flex;
+    justify-content: center;
+}
+.fa{
+    background:#3B62A3;
+    width:20%;
+    font-size: 18px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 10px;
+}
+.face:hover{
+    color: rgb(165, 141, 141);
+}
+.face{
+    margin: 9px;
+    color: white;
+}
+.tw{
+    background: #19B0E7;
+    width:20%;
+    font-size: 18px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 10px;
+}
+.twitch{
+    margin: 9px;
+    color: white;
+}
+.twitch:hover{
+    color: rgb(165, 141, 141);
+}

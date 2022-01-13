@@ -1,0 +1,563 @@
+/* Reset Css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+a{
+    text-decoration: none;
+}
+
+/* container */
+.container{
+    width: 1300px;
+    margin:0 auto;
+}
+/* Header */
+header .logo{
+    display: flex;
+    height: 40px;
+    background-color: #000000;
+    text-align: right;
+    justify-content: right;
+    padding-right: 10px;
+}
+header .logo > div {
+    padding-top: 10px;
+    width: 100px;
+}
+header .logo > div img{
+    height: 20px;
+}
+
+.menu-list{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.menu-list .menu{
+   display: flex;
+   justify-content: left;
+}
+
+.menu-list  .menu a{
+    line-height: 80px;
+    padding-top: 10px;
+}
+.fa-chevron-down:before{
+    vertical-align: middle;
+    margin-left: 2px;
+    color: gray;
+    font-weight: bold;
+    font-size: 11px;
+}
+.menu-list  .menu label:hover{
+    color: #0070d1;
+}
+.menu-list  .menu label:hover .fa-chevron-down:before{
+    color: #0070d1;
+}
+.menu-list div ul li{
+    margin-right: 20px;
+    line-height: 80px;
+    display: inline-block;
+}
+.menu >a{
+    margin-right: 30px;
+}
+.menu ul li{
+    margin-right: 50px;
+}
+.menu ul li label{
+    font-weight: bold;
+    color: black;
+    position: relative;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* menu click */
+.click-menu{
+    width: 100%;
+    background-color:white;
+    transition: height 0.5s;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 0;
+    transition: all 0.75;
+    z-index: 3;
+}
+input{
+    display: none;
+}
+
+input:checked + .click-menu{
+    height: 200px;
+}
+input:checked + .click-menu ul li a{
+    transform: scale(1);
+    opacity: 1;
+}
+.click-menu ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 20px;
+}
+.click-menu ul li{
+    display: inline-block;
+}
+.click-menu ul li a{
+    transform-origin: top;
+    transform: scale(0);
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.click-menu ul li a:hover{
+    box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+    
+}
+.click-menu ul li a img{
+    width:120px;
+    display: block;
+}
+
+
+
+
+.sign-in{
+    display: flex;
+    max-height: 80px;
+}
+.sign-in a{
+    padding-top: 20px;
+}
+.sign-in a button{
+    width: 100px;
+    padding: 10px 0;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sign-in a{
+    display:inline-block;
+    max-height: 80px;
+    margin-left:40px;
+    padding-top: 20px;
+}
+.sign-in a img{
+    width: 40px;
+    height: 40px;
+}
+
+.background-game{
+    height: 710px;
+    background: url(../images/background.jpg) no-repeat top left;
+    background-size: cover;
+    position: relative;
+}
+.background-game a{
+    text-align: center;
+    width: 230px;
+    padding: 15px 0;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    bottom: 33px;
+    left: 121px;
+    border-radius: 30px;
+    width: 235px;
+    font-size: 18px;
+}
+
+/* items */
+.list-games{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.list-games > div{
+    flex-grow: 1;
+    padding:2px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in;
+    border:3px solid transparent;
+
+}
+.list-games > div:hover {
+    border-radius: 10px;
+    border:3px solid blue;
+    transform: translateY(-10px);
+    box-shadow: 0 0.75rem 8px rgb(0 0 0 / 18%);
+
+}
+.list-games > div:hover > div{
+    opacity: 1;
+}
+.list-games div > div{
+    border-radius: 10px;
+    opacity:0.7;
+    height: 123px;
+}
+
+.list-games div:nth-child(1) > div{
+    background: url(../images/background.jpg) no-repeat center center;
+    background-size: cover; 
+}
+.list-games div:nth-child(2) > div{
+    background: url(../images/game2.jpg) no-repeat center center;
+    background-size: cover; 
+}
+.list-games div:nth-child(3) > div{
+    background: url(../images/game1.jpg) no-repeat center center;
+    background-size: cover; 
+}
+.list-games div:nth-child(4) > div{
+    background: url(../images/game3.jpg) no-repeat center center;
+    background-size: cover; 
+}
+.list-games div:nth-child(5) > div{
+    background: url(../images/game4.jpg) no-repeat center center;
+    background-size: cover; 
+    
+}
+.list-games div:nth-child(6) > div{
+    background: url(../images/game5.jpg) no-repeat center center;
+    background-size: cover; 
+}
+
+
+
+/* content */
+.content{
+    text-align: center;
+    margin-top: 40px;
+}
+.content >p:first-child{
+    font-size: 15px;
+    color: rgb(0, 114, 206);
+    font-weight: bold;
+    margin-bottom: 10px;
+    word-spacing: 5px;
+}
+.content h2{
+    font-size: 40px;
+    color: rgb(67, 67, 67);
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.content >p:last-child{
+    color:#b2b2b2;
+    font-size: 21px;
+    word-spacing: 3px;
+}
+/* products */
+.product{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.product>div:first-child{
+    padding-top: 100px;
+    width: 400px;
+}
+.product>div:first-child p{
+    font-weight: bold;
+}
+.product>div:first-child>p:first-child{
+    color: #147dd2;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.product>div:first-child>p:nth-child(2){
+    font-size: 30px;
+    color: #797979;
+    margin-bottom: 15px;
+    font-weight: unset;
+}
+.product>div:first-child>p:nth-child(3){
+    font-size: 25px;
+    color: #797979;
+    margin-bottom: 25px;
+    font-weight: unset;
+}
+.product>div a{
+    background-color: #147dd2;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #f9f7f7;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.product>div:last-child{
+    padding: 0 30px;
+}
+/* list-product */
+.list-products{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.list-products>.infor-product{
+    opacity: 0.8;
+    width: 20%;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    padding-bottom: 15px;
+    border: 2px solid transparent; 
+    transition: all 0.3s;  
+}
+.list-products >div:hover{
+    opacity: 1;
+    border:2px solid #0072ce;
+
+}
+.infor-product>div{
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    padding: 16px 16px 0 16px;
+    background-size: 120px;
+}
+.infor-product:nth-child(1)>div{
+    background-image: url(../images/ps5.png);
+}
+.infor-product:nth-child(2)>div{
+    background-image: url(../images/hand.png);
+}
+.infor-product:nth-child(3)>div{
+    background-image: url(../images/headphone.png);
+}
+.infor-product:nth-child(4)>div{
+    background-image: url(../images/remote.png);
+}
+.infor-product:nth-child(5)>div{
+    background-image: url(../images/camera.jpg);
+}
+.infor-product p{
+    color: #343230;
+    font-weight: bold;
+}
+
+/* banner */
+#banner{
+    background: url(../images/banner.jpg) no-repeat top center;
+    background-size: cover;
+    height: 710px;
+    width: 100%;
+}
+.banner-infor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-top: 270px;
+}
+.banner-infor h2{
+    color:#f1f1ed;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    width:227px;
+
+}
+.banner-infor p{
+    color: #dbe5dc;
+    font-size: 15px;
+    width: 324px;
+    margin-bottom: 32px;
+}
+.banner-infor a{
+    text-align: center;
+    width: 230px;
+    padding: 15px 0;
+    background-color: white;
+    font-weight: bold;
+    color: #67676a;
+    border-radius: 20px;
+    width: 183px;
+    font-size: 18px;
+}
+/* games */
+#games{
+    padding-top:50px;
+    padding-bottom: 55px;
+    background-color: #282829;
+}
+#games h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    color: #f5f5f5;
+    margin-bottom: 50px;
+    
+}
+.side{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.side button{
+    background-color: transparent;
+    border: none;
+    border-bottom: 5px solid #363636;
+    font-size: 20px;
+    color: #686868;
+    padding: 10px;
+    transition: all 0.3s;
+}
+.side button:hover{
+    color:#d7d7d7;
+    border-bottom: 5px solid #0072ce;
+}
+
+.list-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list-items a{
+    width: calc((100% - 90px)/4);
+    margin-bottom: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 5px black;
+    transition: all 0.3s ease-in-out;
+}
+.list-items a:hover{
+    box-shadow: 0 5px 15px black;
+    transform:scale(1.02)
+}
+.list-items a img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* social */
+#social{
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 120px;
+}
+#social >h2{
+    font-size: 40px;
+    color: rgb(67, 67, 67);
+    margin-bottom: 10px;
+    font-weight: 300;
+    margin-bottom:30px;
+}
+#social > p{
+    color: #b2b2b2;
+    font-size: 21px;
+    word-spacing: 3px;
+    margin-bottom: 100px;
+}
+
+.ps4{
+    width: 775px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.ps4 div{
+    width: calc((100% - 70px)/2);
+}
+.ps4 >div>a{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 20px;
+}
+.ps4 >div>a img{
+    width: 100%;
+    height: 200px;
+}
+.ps4 div h2{
+    text-align: left;
+    font-size: 40px;
+    color: rgb(67, 67, 67);
+    margin-bottom: 10px;
+    font-weight: 300;
+    margin-bottom:30px;
+}
+.ps4 div p{
+    text-align: left;
+    color: #b2b2b2;
+    font-size: 21px;
+    word-spacing: 3px;
+    margin-bottom: 40px;
+}
+.ps4 div > a:last-child{
+    width: 115px;
+    background-color: #147dd2;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #f9f7f7;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.link-social h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+}
+.link-social ul{
+    margin-top:75px;
+    text-align: center;
+}
+.link-social ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.link-social ul li:last-child{
+    margin-right: 0;
+}
+.link-social ul li a{
+    display: block;
+    width: 125px;
+    height: 125px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.2s ease-in-out;
+}
+.link-social ul li a:hover{
+    box-shadow: 0 0 15px black;
+    transform: scale(1.03);
+}
+.link-social ul li:nth-child(1) a{
+    background-image: url(../images/twitter.jpg);
+}
+.link-social ul li:nth-child(2) a{
+    background-image: url(../images/facebook.jpg);
+}
+.link-social ul li:nth-child(3) a{
+    background-image: url(../images/instagram.jpg);
+}
+.link-social ul li:nth-child(4) a{
+    background-image: url(../images/youtube.png);
+}
+
+

@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASM Fpoly-Trang Chủ</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" type="image/png" href="../img/logo_fpt.png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header-menu">
+                <input type="checkbox" id="check">
+                <label class="header-btn" for="check">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </label>
+                <div class="header-logo">
+                    ASM<span>FPOLY</span>
+                </div>
+                <ul>
+                    <div class="box-search">
+                        <input type="text" placeholder="Search">
+                        <li><a class="search" href=""><i class="fas fa-search"> </i> </a></li>
+                    </div>
+                    <li><a class = "bell "href=""> <i class="let fas fa-bell"></i></a ></li>
+                    <li><a class="power " href="../index.html"> <i class="let fas fa-power-off"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="submenu">
+            <div class="list-menu">
+                <div class="avt">
+                    <img  src="../img/js.png" alt="">
+                    <p class="name">User</p>
+                </div>
+                <li class="item">
+                    <div href="" class="menu-btn">
+                        <i class="fas fa-desktop"></i><span>Home</span>
+                    </div>
+                </li>
+                <li class="item" id="user">
+                    <a href="#user" class="menu-btn">
+                        <i class="fas fa-user-circle"> 
+                        </i>
+                        <span>Tài Khoảng Của Tôi   <i class="fas fa-chevron-down down"></i></span>
+                    </a>
+                    <div class="item-submenu">
+                        <a href=""><i class="fas fa-address-card"> <span>Hồ Sơ</span></i></a>
+                        <a href=""><i class="fas fa-address-book"> <span>Bài Đã Đăng</span></i></a>
+                    </div>
+                </li>
+                <li class="item" id="mes">
+                    <a href="#mes" class="menu-btn">
+                        <i class="fas fa-envelope"> 
+                        </i>
+                        <span>Tin Nhắn <i class="fas fa-chevron-down down"></i></span>
+                    </a>
+                    <div class="item-submenu">
+                        <a href=""><i class="fas fa-envelope"> <span>Thư Nhận</span></i></a>
+                        <a href=""><i class="fas fa-envelope-square"> <span>Thư Đã Gửi</span></i></a>
+                        <a href=""><i class="fas fa-exclamation-circle"> <span>Thư Lỗi</span></i></a>
+                        
+                    </div>
+                </li>
+                <li class="item" id="setting">
+                    <a href="#setting" class="menu-btn">
+                        <i class="fas fa-cog"> 
+                        </i>
+                        <span>Cài Đặt <i class="fas fa-chevron-down down"></i></span>
+                    </a>
+                    <div class="item-submenu">
+                        <a href=""><i class="fas fa-lock"> <span>Mật Khẩu</span></i></a>
+                        <a href=""><i class="fas fa-language"> <span>Ngôn Ngữ</span></i></a>
+                    </div>
+                </li>
+                <li class="item">
+                    <a href="" class="menu-btn">
+                        <i class="fas fa-info-circle"></i><span>Báo Lỗi</span>
+                    </a>
+                </li>
+            </div>
+        </div>
+        
+           
+    </div>
+    <div class="contai">
+        <section>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+                <div>
+                    <i class="fab fa-bluetooth"></i>
+                    <i class="fas fa-database"></i>
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fas fa-file-code"></i>
+                    <i class="fas fa-code"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fas fa-angle-double-left"></i>
+                    <i class="fas fa-angle-double-right"></i>
+                    <i class="fas fa-battery-three-quarters"></i>
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <i class="fas fa-cogs"></i>
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-folder-open"></i>
+                    <i class="far fa-file"></i>
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-laptop-code"></i>
+    
+                </div>
+            </div>
+            
+        </section>
+        <div class="container">
+            <div class="noidung">
+                <div class="card">
+                    <div class="content">
+                        <h2>JS</h2>
+                        <h3>Lập trình cơ sở với Javascript</h3>
+                        <p>10 Bài Assignment</p>
+                        <a href="../xaydungtrangweb.html">Xem</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2>HTML</h2>
+                        <h3>Xây dựng trang Web</h3>
+                        <p>7 Bài Assignmen</p>
+                        <a href="../xaydungtrangweb.html">Xem</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2>Java</h2>
+                        <h3>Lập trình Java 1</h3>
+                        <p> 9 Bài Assignmen</p>
+                        <a href="../xaydungtrangweb.html">Xem</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2>SQL</h2>
+                        <h3>Cơ sở dữ liệu</h3>
+                        <p> 9 Bài Assignmen</p>
+                        <a href="../xaydungtrangweb.html">Xem</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2>C</h2>
+                        <h3>Nhập môn lập trình</h3>
+                        <p> 9 Bài Assignmen</p>
+                        <a href="../xaydungtrangweb.html">Xem</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2>PS6</h2>
+                        <h3>Thiết kế hình ảnh với Photoshop (Adobe Photoshop)</h3>
+                        <p> 9 Bài Assignmen</p>
+                        <a href="../xaydungtrangweb.html" target="_blank">Xem</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        
+        $(document).ready(function(){
+            $(".header-btn").click(function(){
+                $(".main").toggleClass("collapse");
+            });
+            $(".menu-btn").click(function(){
+                $(this).next(".item-submenu").slideToggle();
+            });
+        });
+
+        
+
+        </script>
+    <script src="../js/home.js"></script>
+</body>
+</html>

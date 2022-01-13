@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #4ccee8;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 1;
+}
+section .row{
+    position: relative;
+    top: -60%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px 0;
+    white-space: nowrap;
+    font-size: 40px;
+    transform: rotate(-30deg);
+}
+section .row i{
+    color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+    padding: 0 5px;
+    user-select: none;
+    cursor: default;
+}
+section .row i:hover{
+    transition : 0s;
+    color: #4ccee8;
+    text-shadow: 0 0 120px #4ccee8;
+}
+section .row div{
+    animation: animate 80s linear infinite;
+    animation-delay: -80s;
+}
+section .row div:nth-child(2){
+    animation: animate2 80s linear infinite;
+    animation-delay: -40s;
+}
+
+@keyframes animate{
+    0%{
+        transform: translateX(100%);
+    }100%{
+        transform: translateX(-100%);
+    }
+}
+@keyframes animate2{
+    0%{
+        transform: translateX(0%);
+    }100%{
+        transform: translateX(-200%);
+    }
+}
+.container{
+    position: absolute;
+    top: 10vh;
+    left: 25%;
+    width: 40%;
+    height: 80vh;    
+    z-index: 10;
+}
+
+.container .noi-dung{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background: none;
+    background: rgba(255,255,255,0.1);
+    /*box-shadow: 0 0 10px #4ccee8, 
+   0 0 40px #4ccee8, 
+   0 0 80px #4ccee8;
+   border-radius: 5px;*/
+   backdrop-filter: blur(5px);
+   z-index: 1;
+   border-radius: 10px;
+   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+.container .noi-dung #form{
+    width: 80%;
+}
+.container .noi-dung #form h2{
+    color: #4ccee8;
+    font-weight: 500;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.container .noi-dung #form .form-group{
+    margin-bottom: 5px;
+}
+.container .noi-dung #form .form-group label{
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #607db8;
+    letter-spacing: 1px;
+}
+.container .noi-dung #form .form-group input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #4ccee8;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #4ccee8;
+    background: transparent;
+    border-radius: 30px;
+    }
+
+.container .noi-dung #form .form-group select{
+        width: 100%;
+        padding: 10px 20px;
+        outline: none;
+        border: 1px solid #4ccee8;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #4ccee8;
+        background: transparent;
+        border-radius: 10px;
+}
+
+.container .noi-dung #form .form-group button[type="form_submit"]{
+    background: #4ccee8;
+    width: 320px;
+    height: 30px;
+    border-radius: 20px;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+               0 2px 2px rgba(0,0,0,0.12),
+               0 4px 4px rgba(0,0,0,0.12),
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+.container .noi-dung #form .form-group button[type="form_submit"]:hover{
+    opacity: 0.9;
+}
+.container .noi-dung #form .nho-dang-nhap{
+    margin-bottom: 10px;
+    color: #4ccee8;
+    font-size: 14px;
+}
+.container .noi-dung #form .form-group p{
+    color: #4ccee8;
+}
+.container .noi-dung #form .form-group p a{
+    color: red;
+}
+
+.container .noi-dung #form h3{
+    color: red;
+    text-align: center;
+    margin: 80px 0 10px;
+    font-weight: 500;
+}
+.container .noi-dung #form .icon-dang-nhap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .noi-dung #form .icon-dang-nhap li{
+    list-style: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .noi-dung #form .icon-dang-nhap li:nth-child(1){
+    color: #3b5999;
+}
+.container .noi-dung #form .icon-dang-nhap li:nth-child(2){
+    color: red;
+}
+.container .noi-dung #form .icon-dang-nhap li:nth-child(3){
+    color: #55acee;
+}
+.container .noi-dung #form .icon-dang-nhap li i{
+    font-size: 24px;
+}
+
+@media (max-width: 768px){
+    .container .img-bg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .container .noi-dung{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    .container .noi-dung #form{
+        width: 100%;
+        padding: 40px;
+        background: rgba(255 255 255 / 0.9);
+        margin: 50px;
+    }
+    .container .noi-dung #form h3{
+        color: #4ccee8;
+        text-align: center;
+        margin: 30px 0 10px;
+        font-weight: 500;
+    }
+}

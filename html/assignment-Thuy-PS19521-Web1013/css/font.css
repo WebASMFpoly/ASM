@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../media/fontChu/montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../media/fontChu/montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../media/fontChu/montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../media/fontChu/montserrat/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(../media/fontChu/montserrat/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-SemiBoil;
+    src: url(../media/fontChu/montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: playfairDishplay-Black;
+    src: url(../media/fontChu/playfairDisplay/PlayfairDisplay-Black.ttf);
+}

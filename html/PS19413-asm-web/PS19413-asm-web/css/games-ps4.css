@@ -1,0 +1,335 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.grid{
+    width: 1300px;
+    margin: auto;
+}
+
+
+div.btn>div{
+    width: 200px;
+    padding: 2px;
+    border: 2px solid transparent;
+}
+div.btn>div:hover{
+    border-radius: 2rem;
+    border: 2px solid #2d64e6;
+}
+div.btn>div>a{
+    display: block;
+    color: white;
+    font-weight: bold;
+    background-color: #2d64e6;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+/* Header */
+header .logo{
+    display: flex;
+    height: 40px;
+    background-color: #000000;
+    text-align: right;
+    justify-content: right;
+    padding-right: 10px;
+}
+header .logo > div {
+    padding-top: 10px;
+    width: 100px;
+}
+header .logo > div img{
+    height: 20px;
+}
+
+
+#fifa{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.fifa__list .fifa__list_items{
+    display: inline-block;
+    list-style: none;
+}
+
+.fifa__list_items:hover a{
+    border-bottom: 4px solid #0172ce;
+    color: #0172ce ;
+}
+
+.fifa__list_items a{
+    display: block;
+    padding: 0 17px;
+    line-height: 64px;
+    color: #363636;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+    transition: all 0.3 ease-in;
+}
+
+
+
+.main-ps4__video{
+    position: relative;
+}
+.main-ps4__video > video{
+    width: 100%;
+}
+.main-ps4__video-title{
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+.main-ps4__video-title h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.main-ps4__video-title p{
+    color: #A3D6D6;
+    font-size: 26px;
+}
+
+/* four-games */
+#four-games{
+    margin-top: 50px;
+}
+.four-games__wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.four-games___items{
+    margin-bottom: 70px;
+    text-align: center;
+    width: 49%;
+}
+.four-games___items>h2{
+    margin-top:30px;
+    color: #1F1F1F;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.four-games___items>p{
+    color: #484848;
+    line-height: 23px;
+    margin-top:18px;
+}
+
+.four-games___items:nth-child(2){
+    margin: 0;
+}
+
+.four-games___items-img>img{
+    width: 100%;
+}
+.four-games___items-btn{
+    margin-top: 30px;
+}
+.four-games___items-btn>div{
+    margin: auto;
+}
+
+/* eight-games */
+#eight-games{
+    padding-bottom: 136px;
+    padding-top: 54px;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.eight-games__title{
+    color: #1F1F1F;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 38px;
+}
+.eight-games__detail{
+    color: #484848;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.eight-games__three-items{
+    display: flex;
+    justify-content: space-between;
+}
+.eight-games__items{
+    display: inline-block;
+    margin-right: 32px;
+}
+.eight-games__items-img>img{
+    width: 100%;
+    min-height: 401px;
+}
+
+.eight-games__items>h3{
+    margin-top:35px;
+    color: #1F1F1F;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.eight-games__items>p{
+    color: #484848;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 50px;
+    min-height: 100px;
+}
+.eight-games__items-btn>div{
+    margin: auto;
+}
+
+/* vr-game */
+#vr-game{
+    padding-bottom: 193px;
+    padding-top: 163px;
+    position: relative;
+}
+.vr-game__background{
+    z-index: -10;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.vr-game__background>img{
+    width: 100%;
+    overflow: hidden;
+}
+
+.vr-game__wrap{
+    padding-left: 100px;
+}
+.vr-game__detail{
+    width: 420px;
+}
+.vr-game__detail>h2{
+    color: white;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.vr-game__detail-line{
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 7px;
+}
+.vr-game__btn{
+    margin-top:30px;
+}
+.vr-game__btn>div:hover{
+    border: 2px solid #1e2734 !important;
+}
+.vr-game__btn>div>a{
+    background-color: #1e2734 !important;
+    color: #00b0FF !important;
+}
+
+/* hit games */
+#hit-games{
+    padding-top: 52px;
+    padding-bottom: 126px;
+    position: relative;
+}
+.hit-games__background{
+    z-index: -10;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-image:linear-gradient(0,#e70e17,#e70e1700),linear-gradient(0,#e70e17,#e70e1700),url(../games-ps4/images/hit-games.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.hit-games__background>img{
+    width: 100%;
+}
+
+.hit-games__detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hit-games__detail>h2{
+    color: white;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.hit-games__detail>p{
+    color: #edacae;
+    font-size: 20px;
+    text-align: center;
+    width: 800px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.hit-games__list{
+    width: 874px;
+    display: flex;
+    justify-content: space-between;
+}
+.hit-games__item{
+    margin-right: 30px;
+    overflow: hidden;
+}
+.hit-games__item:last-child{
+    margin: 0;
+}
+.hit-games__item>img{
+    width: 100%;
+}
+
+/* ready-ps5 */
+#ready-ps5{
+    padding-top:70px;
+    background-image: url(../games-ps4/images/ps-5.jpg);
+    background-size: 124%;
+    background-repeat: no-repeat;
+    padding-bottom: 102px
+}
+
+.ready-ps5__detail{
+    width: 480px;
+}
+.ready-ps5__detail>h2{
+    color: #1F1F1F;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.ready-ps5__detail>p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom:20px;
+    color: #1F1F1F;
+}

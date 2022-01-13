@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    /* width: 100%; */
+    height: 100%;
+}
+body{
+    /* width: 100%; */
+    height: 100%;
+}
+/* form full */
+#formfull{
+    width: 100%;
+    height: 100%;
+    background-image: url(../form-sign/images-sign/background-form.jpg);
+    background-size: cover;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#formfull form{
+    width: 400px;
+    height: 560px;
+}
+
+#logo__sony{
+    text-align: center;
+    background-color: #141414;
+}
+
+#logo__sony img{
+    height: 56px;
+}
+
+#logo__ps{
+    background-color: #00439C;
+}
+#logo__ps img{
+    height: 96px;
+}
+/* content form */
+.content-form{
+    height: calc(100% - 56px - 96px);
+    background-color: #fff;
+    padding-top: 20px;
+    position: relative;
+}
+.content-form #title{
+    width: 300px;
+    margin-left: 33px;
+}
+.content-form #title p{
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 300px;
+}
+.content-form #title p a{
+    text-decoration: none;
+}
+.content-form #form-input{
+    width: 304px;
+    margin:0 auto;
+    margin-top:25px;
+}
+/* form input */
+#form-input__email{
+    width: 100%;
+    height: 36px;
+    padding: 0 13px;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border: 1px solid #c8c8c8;
+}
+#form-input__next{
+    width: 100%;
+    height: 36px;
+    padding: 0 13px;
+    outline: none;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    border: none;
+    background-color: #3966d5;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.form-input__error{
+    display: block;
+    text-decoration: none;
+    color: #3e66d5;
+    margin-bottom: 25px;
+}
+#form-input__new{
+    width: 100%;
+    height: 36px;
+    padding: 0 13px;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border: 1px solid #c8c8c8;
+    background-color: white;
+    cursor: pointer;
+}
+
+.form-input__help{
+    position:absolute;
+    color: #737373;
+    text-decoration: none;
+    bottom: 10px;
+    left: 50%;
+    font-size: 13px;
+    transform: translateX(-50%);
+}
+.form-input__help:hover{
+    color: #3e66d5;
+}

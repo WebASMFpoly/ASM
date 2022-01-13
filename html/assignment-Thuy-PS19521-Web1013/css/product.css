@@ -1,0 +1,610 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f8fa;
+}
+
+.wrapper {
+    width: 1520px;
+}
+
+header {
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    width: 10%;
+    text-align: right;
+    padding-top: 3px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.danhmuc {
+    float: right;
+    width: 90%;
+}
+
+.danhmuc1 {
+    float: left;
+    width: 62%;
+    margin: 15px;
+    font-family: Montserrat-Medium;
+    font-size: 13pt;
+}
+
+.danhmuc1 p {
+    display: inline;
+    margin: 18px;
+    padding: 0 30px;
+}
+
+.danhmuc1 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.timkiem {
+    float: right;
+    width: 35%;
+}
+
+.search {
+    float: left;
+    width: 55%;
+    height: 40px;
+    padding: 15px;
+    font-family: Montserrat-Medium;
+    color: gray;
+}
+
+.search img {
+    float: right;
+    width: 20px;
+    padding-right: 5px;
+}
+
+.user {
+    float: right;
+    width: 40%;
+}
+
+.user img {
+    width: 25px;
+    margin: 10px 27px;
+}
+
+hr {
+    width: 100%;
+}
+
+
+/*end header*/
+
+
+/*banner*/
+
+.bannerProduct {
+    width: 90%;
+    position: relative;
+}
+
+.NoiBatP img {
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.textP>a {
+    text-decoration: none;
+    float: right;
+    position: absolute;
+    top: 60px;
+    left: 600px;
+    font-family: Montserrat-Medium;
+    font-size: 17pt;
+    color: rgb(32, 32, 32);
+}
+
+.textP>a:hover {
+    text-decoration: underline;
+}
+
+.gia {
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    font-family: Montserrat-Medium;
+    font-size: 18pt;
+    color: rgb(32, 32, 32);
+}
+
+.giaSale {
+    position: absolute;
+    top: 185px;
+    left: 600px;
+    font-family: Montserrat-Regular;
+    font-size: 14pt;
+    color: rgb(97, 95, 95);
+}
+
+.mua {
+    position: absolute;
+    top: 270px;
+    left: 600px;
+    border: 1.5px solid black;
+    padding: 13px 20px;
+    border-radius: 30px;
+    font-family: Montserrat-Medium;
+    font-size: 13pt;
+}
+
+.mua>a {
+    text-decoration: none;
+    color: black;
+}
+
+.mua:hover {
+    box-shadow: 0 0 40px rgb(214, 209, 209);
+}
+
+
+/*end Banner*/
+
+
+/*nav*/
+
+nav {
+    width: 90%;
+    min-height: 95px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.boLoc {
+    float: left;
+    min-width: 110px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    font-family: Montserrat-Medium;
+    font-size: 12pt;
+}
+
+.boLoc img {
+    position: relative;
+    top: 1px;
+    width: 23px;
+    padding-right: 10px;
+}
+
+.sapXep {
+    position: absolute;
+    top: 24px;
+    left: 360px;
+}
+
+.icon img {
+    width: 30px;
+    margin-left: 300px;
+}
+
+#hoi {
+    position: relative;
+    left: 270px;
+}
+
+.ts {
+    position: absolute;
+    top: -4px;
+    left: 700px;
+    font-family: Montserrat-Medium;
+    font-size: 12pt;
+    border: 1px solid black;
+    min-width: 280px;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+.dam {
+    position: absolute;
+    font-size: 11pt;
+    top: 7px;
+    left: 140px;
+    font-family: Montserrat-Bold;
+}
+
+
+/*end nav*/
+
+
+/*article*/
+
+.product {
+    width: 92%;
+}
+
+article {
+    width: 100%;
+}
+
+.cot {
+    width: 25%;
+    float: left;
+}
+
+.sanPham {
+    /* border: 1px solid gray; */
+    /* box-shadow: 0 0 1px grey; */
+    margin-top: 1rem;
+    padding: 5px;
+    text-align: center;
+    margin: 2rem 15px 2rem 15px;
+    font-family: Montserrat-Regular;
+    font-size: 13pt;
+}
+
+.sanPham img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.sanPham img:hover {
+    box-shadow: 0 0 20px #b7bbc7;
+}
+
+.ten {
+    text-align: left;
+    padding-top: 10px;
+    font-size: 12pt;
+}
+
+.ten a {
+    text-decoration: none;
+    color: black;
+}
+
+.ten a:hover {
+    text-decoration: underline;
+}
+
+.giasp {
+    text-align: left;
+    padding-top: 15px;
+    font-family: Montserrat-Medium;
+    font-size: 14pt;
+}
+
+.tt a {
+    text-decoration: none;
+    float: left;
+    color: black;
+    font-family: Montserrat-Bold;
+    font-size: 11pt;
+    padding-top: 10px;
+}
+
+.tt a:hover {
+    text-decoration: underline;
+}
+
+.mten img {
+    width: 4%;
+    position: relative;
+    top: 10px;
+    left: -65px;
+}
+
+
+/*end article*/
+
+
+/*aside*/
+
+.khamPha {
+    float: left;
+    width: 92%;
+    min-height: 450px;
+}
+
+.tdkp {
+    font-family: Montserrat-Medium;
+    font-size: 17pt;
+    padding-top: 1rem;
+}
+
+.mix {
+    display: flex;
+    flex-direction: column;
+}
+
+.so {
+    float: left;
+    border: 1px solid #f5f7fa;
+    border-radius: 50%;
+    padding: 10px 15px;
+    background-color: #f5f7fa;
+    margin: 10px;
+    font-family: Montserrat-Medium;
+    font-size: 10pt;
+}
+
+.so a {
+    text-decoration: none;
+    color: black;
+}
+
+.so:hover {
+    background-color: #C9CCD5;
+}
+
+.product-bottom {
+    display: flex;
+}
+
+.product-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tdkp2 {
+    width: 100%;
+}
+
+.product-new {
+    display: flex;
+    flex-direction: column;
+}
+
+.tdkp2 h5 {
+    padding-left: 1rem;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: Montserrat-Medium;
+    font-size: 18pt;
+}
+
+.column {
+    width: 16.6%;
+}
+
+.spkp {
+    margin: 10px;
+    text-align: center;
+}
+
+.spkp img {
+    width: 100%;
+}
+
+.tenkp {
+    text-align: left;
+}
+
+.tenkp a {
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+    font-size: 10pt;
+    color: black;
+}
+
+.giakp {
+    text-align: left;
+    font-family: Montserrat-Medium;
+}
+
+
+/*end aside*/
+
+
+/*footer*/
+
+footer {
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+/*footer1*/
+
+.ft1 {
+    min-height: auto;
+    width: 100%;
+    background-color: #e3f0f9;
+}
+
+.phanMot {
+    height: 210px;
+    width: 1370px;
+    position: relative;
+}
+
+.deMuc {
+    font-family: Montserrat-SemiBoil;
+    font-size: 12.5pt;
+    padding-top: 25px;
+}
+
+.thongTin a {
+    text-decoration: none;
+    color: black;
+}
+
+.thongTin a:hover {
+    text-decoration: underline;
+}
+
+.thongTinCon1 {
+    width: 25%;
+    float: left;
+}
+
+.thongTinCon1>ul {
+    float: left;
+    list-style: none;
+    font-family: Montserrat-Regular;
+    font-size: 11pt;
+    padding: 15px;
+}
+
+.thongTinCon1>ul>li {
+    padding: 5px;
+    margin-left: -20px;
+}
+
+.thongTinCon2 {
+    width: 25%;
+    float: left;
+    padding-left: 5px;
+}
+
+.thongTinCon2>ul {
+    float: left;
+    list-style: none;
+    font-family: Montserrat-Regular;
+    font-size: 11pt;
+    padding: 15px;
+}
+
+.thongTinCon2>ul>li {
+    padding: 5px;
+    margin-left: -20px;
+}
+
+.thongTinCon3 {
+    width: 25%;
+    float: left;
+    padding-left: 15px;
+}
+
+.thongTinCon3>ul {
+    float: left;
+    list-style: none;
+    font-family: Montserrat-Regular;
+    font-size: 11pt;
+    padding: 15px;
+}
+
+.thongTinCon3>ul>li {
+    padding: 5px;
+    margin-left: -20px;
+}
+
+.thongTinCon4 {
+    width: 25%;
+    float: left;
+    padding-left: 25px;
+}
+
+.thongTinCon4 img {
+    width: 13%;
+    padding: 10px;
+    margin-left: -10px;
+}
+
+.deMuc1 {
+    font-family: Montserrat-SemiBoil;
+    font-size: 13pt;
+}
+
+.nhap {
+    width: 60%;
+    margin-top: 15px;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 13pt;
+    background-color: #e3f0f9;
+    font-family: Montserrat-Regular;
+}
+
+
+/*end footer1*/
+
+
+/*footer2*/
+
+.ft2 {
+    min-height: auto;
+    width: 100%;
+    background-color: #7395ae;
+}
+
+.phanHai {
+    width: 1370px;
+    height: 50px;
+    position: relative;
+}
+
+.trai {
+    color: white;
+    font-family: Montserrat-Medium;
+    font-size: 10pt;
+    float: left;
+    padding-top: 20px;
+}
+
+.trai img {
+    float: left;
+    width: 3%;
+}
+
+.trai>a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.trai>a:hover {
+    padding-left: 20px;
+    color: black;
+}
+
+.phai {
+    float: right;
+    margin-top: -20px;
+    font-size: 10pt;
+}
+
+.phai>ul {
+    float: right;
+    list-style: none;
+    color: white;
+    font-family: Montserrat-Regular;
+}
+
+.phai>ul>li {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.phai>ul>li>a {
+    color: white;
+    font-family: Montserrat-Regular;
+}
+
+.phai>ul>li>a:hover {
+    color: black;
+}
+
+
+/*end footer2*/
+
+
+/*end footer*/

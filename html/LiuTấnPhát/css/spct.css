@@ -1,0 +1,319 @@
+header{
+  width: 60%;
+  margin: auto;
+}
+.slideshow-container>.mySlides:nth-child(2)>img{
+  width: 100% !important;
+  object-position:0  ;}
+.slideshow-container{
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+.mySlides{
+  width: 100%;
+}
+.mySlides  img{
+  width: 100%;
+  height: 100%;
+  
+}
+/* main */
+main{
+  width: 60%;
+  margin: auto;
+}
+.cl{
+  display: grid;
+  grid-template-columns: 70% 1fr;
+}
+.column1-left-row1{
+  border-bottom: 1px solid rgb(199, 193, 193);
+}
+.column1-left-inner{
+  display: flex;
+}
+.column1-left-inner span{
+  margin: 0.3%;
+}
+ a{
+  text-decoration: none;
+  font-size: 90%;
+  color: rgb(10, 161, 207);
+}
+.column1-left-inner-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  line-height: 10%;
+  
+}
+.column1-left-inner-2-1{
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.column1-left-inner-2-1 span:nth-child(1){
+  color: rgb(255, 56, 6);
+  font-size: 110%;
+}
+.column1-left-inner-2-1 span:nth-child(1) a{
+  text-decoration: none;
+}
+.column1-left-inner-2-2{
+  display: flex;
+  align-items: center;
+}
+.column1-left-row2{
+  display: flex;
+  flex-flow: row wrap;
+  border-bottom: 1px solid rgb(199, 193, 193);
+}
+.column1-left-row2 span{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.column1-left-row2 span i+p{
+  padding-left: 2%;
+}
+.column1-left-row3{
+  border-bottom: 1px solid rgb(199, 193, 193);
+}
+.column1-right{
+  margin-left:   15%;
+
+}
+.column1-right-top{
+  display: flex;
+  padding: 5%;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 1px 2px 5px rgb(180, 179, 179);
+  color: rgb(66, 66, 66);
+  border-radius: 1px;
+  position: relative;
+}
+.column1-right-top div{
+  display: flex;
+}
+.column1-right-top div:nth-child(1){
+  flex-flow: column;
+
+}
+.column1-right-top div:nth-child(1) button{
+  width: 100%;
+  background-color: rgb(255, 123, 0);
+  padding: 7%;
+  margin: 4% auto;
+  border: none;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.column1-right-top div:nth-child(1) span:nth-child(2){
+  display: flex;
+  align-items: center;
+}
+.column1-right-top div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgb(226, 219, 219);
+}
+.column1-right-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+  background-color: #ffffff;
+  box-shadow: 1px 2px 5px rgb(180, 179, 179);
+}
+/* colums2 */
+.goi-dv{
+  background-color: #f0f6f9;
+  padding: 2%;
+}
+.goi-dv p{
+  color: #606466;
+}
+.dv1{
+  display: flex;
+  justify-content: space-between;
+
+}
+.dv1 button{
+  width: 18%;
+  border: 1px solid rgb(7, 167, 207);
+  background: #ffffff;
+  color: rgb(7, 167, 207);
+  font-size: 1rem;
+}
+.dv1 button:hover{
+  border: 1px solid rgb(2, 48, 253);
+  color: rgb(2, 48, 253);
+
+}
+.dv2 button{
+  background-color: orangered;
+  color: white;
+  font-size: 110%;
+  border: none;
+  padding: 2%;
+}
+.dv3 div{
+  border: 1px solid black;
+  margin: 1%;
+  width: 80%;
+  padding: 1%;
+  border-radius: 4px;
+  background: white;
+}
+.dv4 div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  margin: 1%
+}
+.dv4 div span{
+  width:30%;
+  display: flex;
+  padding: 1%;
+  justify-content: center;
+}
+.dv4 div span:nth-child(1){
+  justify-content: start;
+}
+.dv4 div span p{
+  width: 40%;
+  color: rgb(223, 115, 14);
+}
+.dv4 div span input{
+  width: 20%;
+  margin:0 0.5% ;
+  border: none;
+}
+.dv4 div span  button{
+  width: 15%;
+  max-height: 40px;
+}
+.dv5{
+  display: flex;
+  justify-content: space-between;
+  padding: 4%;
+  align-items: center;
+  line-height: 50%
+}
+.dv5 div:nth-child(1){
+  display:grid;
+
+}
+.dv5 div:nth-child(2){
+  width: 40%;
+}
+.dv5 div:nth-child(2) button:nth-child(1){
+  background:orange;
+  border: none;
+  padding: 7%;
+  color: white;
+}
+.dv5 div:nth-child(2) button:nth-child(1):hover{
+  background:rgb(189, 124, 3);
+  cursor: pointer;
+}
+.dv5 div:nth-child(2) button:nth-child(2){
+  background:rgb(255, 70, 3) ;
+  border: none;
+  padding: 7%;
+  color: white;
+}
+.dv5 div:nth-child(2) button:nth-child(2):hover{
+  background:rgb(197, 53, 0) ;
+  cursor: pointer;
+}
+.column2-right-bottom span{
+  padding: 3%;
+}
+.column2-right-bottom{
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  margin-left: 15% ;
+  background-color: #f0f6f9;
+
+}
+.column2-right-bottom a:nth-child(2){
+  border-right: 1px  solid rgb(192, 185, 185);
+  border-left:  1px  solid rgb(192, 185, 185);
+  padding: 2%;
+}
+
+.c2rb-box-sp{
+  background-color:#ffffff;
+  margin: 10% 0 auto;
+  line-height: 80%;
+}
+.c2rb-box-sp span{
+  display: flex;
+  align-items: center;
+}
+.c2rb-box-sp i{
+  font-size: 1.4rem;
+  padding: 4%;
+ }
+ .c2rb-box-content {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  border-top: 1px solid rgb(143, 130, 130) ;
+ }
+ .c2rb-box-content h2{
+   margin: 1% 0;
+ }
+ .c2rb-box-content li{
+  list-style: none;
+  padding: 4%;
+ }
+ .column2-right-bottom button {
+   padding: 4%;
+   border: none;
+   background: none;
+ }
+ .column2-right-bottom button a{
+  color: rgb(27, 97, 248);
+  font-size: 1.2rem;
+ }
+ /* meida */
+ @media only screen and (max-width: 1024px)
+{ .mySlides  img{height: 400px;}
+  header{width: 100%;}
+  main{width: 100%;}
+  .column1-left{
+    display: flex;
+    flex-flow: column;
+  }
+  .cl{display: flex;margin: 2%;}
+  .column1-right{ display: none;}
+  .column2{
+    display: flex;
+    flex-flow: column;
+    margin: 2%;
+    background-color: white;
+  }
+  .goi-dv{background-color: white;}
+  .dv1 button{
+    width: 20%;
+    height: 40px;
+    font-size: .8rem;
+  }
+  .dv4{ display: none;}
+  .dv5{ display: none;}
+  .column2-right-bottom{width: 100%; background-color: rgb(255, 255, 255);display: flex; justify-content: start;padding:none;margin-left: 0% ;}
+  .column2-right-bottom{font-size: 2rem;}
+}
+@media only screen and (max-width: 767px){
+  .mySlides  img{height: 200px;}
+  .column2-right-bottom{font-size: 1rem;}
+  
+}
